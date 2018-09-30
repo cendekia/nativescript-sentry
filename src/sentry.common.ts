@@ -26,13 +26,7 @@ export class Common extends Observable {
     }
 
     protected static _init(dsn: string, config?: any) {
-        // native use private and plublic dsn while the raven js olnly uses public
-        let aux = dsn.split('//');
-        let aux2 = aux[1].split(':');
-        let aux3 = aux2[1].split('@');
-
-        let ravenDsn =  'https://' + aux2[0] + '@' + aux3[1];
-        Raven.config(ravenDsn)
+        Raven.config(dsn)
             .setTransport((options) => {
                 console.log('sending');
                 http.request({
