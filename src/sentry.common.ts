@@ -40,8 +40,8 @@ export class Common extends Observable {
                 })
                 .then((res) => {
                     if (res.statusCode !== 200) {
-                        if (options.onFailure) {
-                            options.onFailure();
+                        if (options.onError) {
+                            options.onError(new Error('Unable to connect to raven status code: ' + res.statusCode));
                         }
                     } else {
                         if (options.onSuccess) {
@@ -51,8 +51,8 @@ export class Common extends Observable {
                     }, (e) => {
                         console.log('error');
                         console.log(e);
-                        if (options.onFailure) {
-                             options.onFailure();
+                        if (options.onError) {
+                             options.onError(e);
                         }
                     });
             })
