@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielgek/nativescript-sentry-temp.git"
+    "url": "https://github.com/cendekia/nativescript-sentry-temp.git"
   },
   "keywords": [
     "NativeScript",
@@ -41,10 +41,10 @@
     "email": "danielgek@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/danielgek/nativescript-sentry-temp/issues"
+    "url": "https://github.com/cendekia/nativescript-sentry-temp/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/danielgek/nativescript-sentry-temp",
+  "homepage": "https://github.com/cendekia/nativescript-sentry-temp",
   "readmeFilename": "README.md",
   "devDependencies": {
     "@angular/core": "4.4.6",
