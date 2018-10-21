@@ -1,6 +1,6 @@
 {
   "name": "nativescript-sentry-temp",
-  "version": "1.5.2",
+  "version": "1.5.3",
   "description": "Sentry.io NativeScript plugin. (Temporary version which it still wait for merging it by the original author, `danielgek`)",
   "main": "sentry",
   "typings": "index.d.ts",
