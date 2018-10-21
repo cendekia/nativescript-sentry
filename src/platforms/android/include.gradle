@@ -1,10 +1,10 @@
 /* Include.gradle configuration: http://docs.nativescript.org/plugins/plugins#includegradle-specification */
 
 android {
-	flavorDimensions "nativescript-sentry"
+	flavorDimensions "nativescript-sentry-temp"
 	productFlavors {
-		"nativescript-sentry" {
-			dimension "nativescript-sentry"
+		"nativescript-sentry-temp" {
+			dimension "nativescript-sentry-temp"
 		}
 	}
 }

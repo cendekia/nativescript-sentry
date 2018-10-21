@@ -1,5 +1,5 @@
 {
-  "name": "nativescript-sentry",
+  "name": "nativescript-sentry-temp",
   "version": "1.5.0",
   "description": "Sentry.io NativeScript plugin. (Temporary version which it still wait for merging it by the original author, `danielgek`)",
   "main": "sentry",
@@ -17,7 +17,7 @@
     "test.android": "npm i && npm run build && npm run tslint && cd ../demo && tns build android && tns test android --justlaunch",
     "test.ios": "npm i && npm run build && npm run tslint && cd ../demo && tns build ios && tns test ios --justlaunch",
     "tslint": "cd .. && tslint \"**/*.ts\" --config tslint.json --exclude \"**/node_modules/**\"",
-    "plugin.link": "npm link && cd ../demo && npm link nativescript-sentry && cd ../demo-ng && npm link nativescript-sentry && cd ../src",
+    "plugin.link": "npm link && cd ../demo && npm link nativescript-sentry-temp && cd ../demo-ng && npm link nativescript-sentry-temp && cd ../src",
     "plugin.tscwatch": "npm run tsc -- -w",
     "demo.ios": "npm i && npm run build && cd ../demo && tns run ios --syncAllFiles",
     "demo.android": "npm i && npm run build && cd ../demo && tns run android --syncAllFiles",
@@ -27,7 +27,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/danielgek/nativescript-sentry.git"
+    "url": "https://github.com/danielgek/nativescript-sentry-temp.git"
   },
   "keywords": [
     "NativeScript",
@@ -41,10 +41,10 @@
     "email": "danielgek@gmail.com"
   },
   "bugs": {
-    "url": "https://github.com/danielgek/nativescript-sentry/issues"
+    "url": "https://github.com/danielgek/nativescript-sentry-temp/issues"
   },
   "license": "Apache-2.0",
-  "homepage": "https://github.com/danielgek/nativescript-sentry",
+  "homepage": "https://github.com/danielgek/nativescript-sentry-temp",
   "readmeFilename": "README.md",
   "devDependencies": {
     "@angular/core": "4.4.6",
